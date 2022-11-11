@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Giliran';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Giliran'), url('/fonts/Giliran-Regular.woff') format('woff');
+}
+
+.bg-off-white {
+    background-color: #EAECEF;
+}
+
+.text-green {
+    color: #0C413F;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #0C413F;
+    background-color: #fff;
+    border-bottom: 1px solid #D3B8B1;
+    height: 80px;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #0C413F !important;
+}
+
+#button_agendar_consulta {
+    border: none;
+    background-color: #D3B8B1;
+    color: #0C413F;
+    padding: 5px 24px;
+}
+
+#button_agendar_consulta>i {
+    padding-right: 8px;
+}
+
+h1 {
+    font-family: 'Giliran', sans-serif;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#text_intro {
+    max-width: 450px;
+}
+
+#title_name {
+    color: #0C413F;
+}
+
+#divIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+#button_saiba_mais {
+    border: none;
+    width: 254px;
+    font-size: 20px;
+    padding: 6px 15px;
+    background-color: #0C413F;
+    color: #D3B8B1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.line {
+    margin: 5px 0;
+    height: 20px;
+    background:
+        repeating-linear-gradient(90deg, #D3B8B1 0 5px, #0000 0 7px) top;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: 'Giliran', sans-serif;
+    font-size: 60px;
+    color: #0C413F;
+}
+
+#divSobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.h-footer {
+    font-family: 'Giliran', sans-serif;
+    color: #0C413F;
+}
+
+/* #divFooter {
+    padding: 40px 120px;
+} */
+
+@media only screen and (min-width: 960px) {
+    .navbar-brand {
+        padding: 0 30px;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .navbar-nav {
+        width: 50%;
+        justify-content: space-around;
+    }
+}
