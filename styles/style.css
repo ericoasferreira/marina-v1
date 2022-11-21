@@ -123,4 +123,11 @@ footer {
         width: 50%;
         justify-content: space-around;
     }
+
 }
+
+@media screen and (max-width: 960px) {
+    #title_contato {
+        width: 100%;
+    }
+}   
