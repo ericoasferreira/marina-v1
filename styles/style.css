@@ -135,6 +135,13 @@ h3 {
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #DEE2E6;
 }
 
+#alerta_procedimentos {
+    border: #D3B8B1 dashed 1px;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
 footer {
     font-family: 'Raleway', sans-serif;
 }
