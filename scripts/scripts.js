@@ -4,3 +4,9 @@
 //         $(element).collapse('hide');
 //     })
 // })
+
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#accordionFlushExample").collapse("hide");
+    });
+});
