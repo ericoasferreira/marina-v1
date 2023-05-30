@@ -31,10 +31,10 @@
             <div style="background-color: #fff;" class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Início</a>
-                    <a class="nav-item nav-link" href="#">Sobre mim</a>
-                    <a class="nav-item nav-link" href="#">Procedimentos</a>
-                    <a class="nav-item nav-link" href="#">Instagram</a>
-                    <a class="nav-item nav-link" href="#">Contato</a>
+                    <a class="nav-item nav-link" href="#sec_sobre_mim">Sobre mim</a>
+                    <a class="nav-item nav-link" href="#sec_procedimentos">Procedimentos</a>
+                    <a class="nav-item nav-link" href="#sec_instagram">Instagram</a>
+                    <a class="nav-item nav-link" href="#sec_contato">Contato</a>
                 </div>
                 <div>
                     <button id="button_agendar_consulta" href=""><i class="fa-brands fa-whatsapp"></i>Agendar
@@ -44,9 +44,9 @@
 
         </nav>
     </header>
-
+    <!-- Olá -->
     <div class="container-fluid py-5">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center limit-width m-auto">
             <div id="divIntro" class="col-12 col-lg-5">
                 <h1><span>Olá, sou</span>
                     <br>
@@ -67,8 +67,9 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row justify-content-center py-5">
+    <!-- Marina -->
+    <div id="sec_sobre_mim" class="container-fluid">
+        <div class="row justify-content-center py-5 limit-width m-auto">
             <div class="col-12 col-lg-4">
                 <img src="/images/marina-vilela2.png" alt="">
             </div>
@@ -84,7 +85,9 @@
                     nunc. Sed lorem nisi eget adipiscing pretium. Risus euismod.</p>
             </div>
         </div>
-        <div class="row bg-off-white justify-content-center py-5">
+    </div>
+    <div class="container-fluid bg-off-white">
+        <div class="row justify-content-center py-5 limit-width m-auto">
             <div class="col-12 col-lg-5">
                 <img src="/images/Text_Formacoes.svg" alt="">
                 <ul>
@@ -111,27 +114,327 @@
         </div>
     </div>
 
-    <div class="container-fluid py-5">
-        <div class="row">
+
+    <!-- Procedimentos -->
+    <div id="sec_procedimentos" class="container-fluid py-5">
+        <div class="row justify-content-center limit-width m-auto">
             <div class="col-12 text-center">
                 <h2><img src="/images/Text_Procedimentos.svg" alt="Procedimentos"></h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
+        <!-- <div class="row justify-content-center limit-width m-auto">
+            <div class="col-12 col-lg-3">
+                <a href="#myCollapse" data-bs-toggle="collapse">Toggle Element</a>
+                <button type="button" class="btn btn-primary" data-bs-toggle="collapse"
+                    data-bs-target="#myCollapse">Toggle Element</button>
 
+                <a href="#myCollapse2" data-bs-toggle="collapse">Toggle Element</a>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="collapse show" id="myCollapse">
+                    <div class="card card-body">This is a simple example of showing and hiding specific element via data
+                        attributes. Click any trigger buttons to toggle this panel.</div>
+                </div>
+                <div class="collapse show" id="myCollapse2">
+                    <div class="card card-body">This is a simple example of showing and hiding specific element via data
+                        attributes. Click any trigger buttons to toggle this panel.</div>
+                </div>
+            </div>
+        </div> -->
+        <div class="row justify-content-center limit-width m-auto py-5">
+            <div class="col-12 col-lg-3">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Reconstrutivo
+                            </button>
+                        </h2>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Em crianças
+                            </button>
+                        </h2>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Face
+                            </button>
+                        </h2>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Contorno Corporal
+                            </button>
+                        </h2>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Cosmiatria
+                            </button>
+                        </h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="accordion-group">
+                    <div id="flush-collapseOne" class="accordion-collapse show" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Correção de cicatrizes ou queloides</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Tratamento de feridas</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Pós trauma ou acidentes</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Cistos ou retirada de nevus/pintas</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Reconstrução com enxertos/retalhos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Hemangioma infantil e anomalias vasculares</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Malformações de orelhas (correção cirúrgica ou modelagem de orelha em recém
+                                            nascido)</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Ptose palpebral</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Fissuras labio-palatinas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Blefaroplastia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Rinoplastia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Mentoplastia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Otoplastia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Ritidoplastia (ou Lifting facial)</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Lipoenxertia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Lipoaspiração</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Lipoenxertia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Lipoescultura</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h3>Mama</h3>
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Reconstrução</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Simetrização</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Retirada de prótese (explante)</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Aumento com prótese ou lipoenxertia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Diminuição</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Tratamento da ptose</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Ginecomastia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Mastectomia masculinizadora</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h3>Abdome</h3>
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Abdominoplastia</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Correção de cicatriz de cesárea</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h3>Ninfoplastia</h3>
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Cirurgia dos pequenos lábios</p>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Toxina botulínica</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Preenchimento com ácido hialurônico</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Microagulhamento</p>
+                                    </div>
+                                </div>
+                                <div class="card card-procedimentos col-6 col-lg-4">
+                                    <div class="card-body">
+                                        <p class="card-procedimentos-p">Estimuladores de colágeno (Radiesse©, Sculptra©, fios lisos de PDO)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row justify-content-center limit-width m-auto">
+            <div class="col-9">
+                <p>Existem procedimentos que não foram mencionados nessa lista, mas que surgem da necessidade de cada
+                    paciente para melhora de dorma e/ou função de alguma parte do corpo. O procedimento correto será
+                    indicado após a avaliação.</p>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid py-5 bg-off-white">
-        <div class="row">
+    <!-- Instagram -->
+    <div id="sec_instagram" class="container-fluid py-5 bg-off-white">
+        <div class="row limit-width m-auto">
             <div class="col-12 text-center">
-                <h2><img src="/images/Text_Instagram.svg" alt="Procedimentos"></h2>
+                <h2><img src="/images/Text_Instagram.svg" alt="Instagram"></h2>
                 <span>Acompanhe também em <a href="">@marinacirurgiaplastica</a></span>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center limit-width m-auto py-4">
             <div class="col-12 col-lg-9">
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                 <div class="elfsight-app-600ac8fd-9008-4e13-9973-94f12664fd3d"></div>
@@ -139,13 +442,15 @@
         </div>
     </div>
 
-    <div class="container-fluid py-5">
-        <div class="row justify-content-center">
+    <!-- Contato -->
+    <div id="sec_contato" class="container-fluid py-5">
+        <div class="row justify-content-center limit-width m-auto">
             <div class="col-12 col-lg-9">
-                <h2><img id="title_contato" src="/images/Text_Contato.svg" alt="Ficou com alguma dúvida? Mande uma mensagem"></h2>
+                <h2><img id="title_contato" src="/images/Text_Contato.svg"
+                        alt="Ficou com alguma dúvida? Mande uma mensagem"></h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row limit-width m-auto pt-5">
             <div class="col-12 col-lg-8">
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                 <div class="elfsight-app-9540b3f7-f1b1-4bf9-978f-94bf08780110"></div>
@@ -183,6 +488,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <scripts src="./scripts/scripts.js">
+        </script>
 </body>
 
 </html>

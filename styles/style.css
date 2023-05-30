@@ -5,6 +5,10 @@
     src: local('Giliran'), url('/fonts/Giliran-Regular.woff') format('woff');
 }
 
+.limit-width {
+    max-width: 1400px;
+}
+
 .bg-off-white {
     background-color: #EAECEF;
 }
@@ -94,6 +98,35 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+.card-procedimentos {
+    border: none;
+    padding: 5px;
+}
+
+.card-procedimentos > .card-body {
+    background-color: #EAECEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-procedimentos-p {
+    margin: 0;
+}
+
+.accordion {
+    --bs-accordion-btn-icon: none;
+    --bs-accordion-btn-active-icon: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0C413F;
+    background-color: #0c413f3b;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #DEE2E6;
 }
 
 footer {
