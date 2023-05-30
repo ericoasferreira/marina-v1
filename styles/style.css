@@ -2,7 +2,7 @@
     font-family: 'Giliran';
     font-style: normal;
     font-weight: normal;
-    src: local('Giliran'), url('/fonts/Giliran-Regular.woff') format('woff');
+    src: local('Giliran'), url('./fonts/Giliran-Regular.woff') format('woff');
 }
 
 .limit-width {
