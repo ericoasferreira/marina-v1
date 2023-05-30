@@ -51,6 +51,15 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+.links-primary {
+    text-decoration: none;
+    color: #0C413F;
+}
+
+.links-primary:hover {
+    color: #0C413F;
+}
+
 #text_intro {
     max-width: 450px;
 }
