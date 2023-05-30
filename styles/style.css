@@ -94,6 +94,12 @@ h2 {
     color: #0C413F;
 }
 
+h3 {
+    font-family: 'Giliran', sans-serif;
+    font-size: 1.3rem;
+    color: #0C413F;
+}
+
 #divSobreMim {
     display: flex;
     flex-direction: column;
@@ -136,6 +142,11 @@ footer {
 .h-footer {
     font-family: 'Giliran', sans-serif;
     color: #0C413F;
+}
+
+#divFooter > div > div > span > a {
+    color: #0C413F;
+    text-decoration: none;
 }
 
 /* #divFooter {
