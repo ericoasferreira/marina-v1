@@ -1,24 +1,24 @@
-const accordionButtons = document.querySelectorAll('.custom-accordion-button');
-const accordionContents = document.querySelectorAll('.custom-accordion-content');
+document.addEventListener("DOMContentLoaded", function() {
+  const buttons = document.querySelectorAll(".custom-accordion-button");
+  const contents = document.querySelectorAll(".custom-accordion-content");
 
-for (let i = 0; i < accordionButtons.length; i++) {
-  accordionButtons[i].addEventListener('click', function (event) {
-    event.preventDefault();
-    const isActive = this.classList.contains('active');
+  buttons.forEach((button, index) => {
+    button.addEventListener("click", function() {
+      // Remove the active class from all buttons
+      buttons.forEach(btn => {
+        btn.classList.remove("active");
+      });
 
-    // Close all sections
-    closeAllSections();
+      // Toggle the active class on the clicked button
+      this.classList.add("active");
 
-    if (!isActive) {
-      this.classList.add('active');
-      accordionContents[i].style.display = 'block';
-    }
+      // Hide all contents
+      contents.forEach(content => {
+        content.style.display = "none";
+      });
+
+      // Show the corresponding content based on the index
+      contents[index].style.display = "block";
+    });
   });
-}
-
-function closeAllSections() {
-  for (let i = 0; i < accordionContents.length; i++) {
-    accordionButtons[i].classList.remove('active');
-    accordionContents[i].style.display = 'none';
-  }
-}
+});
