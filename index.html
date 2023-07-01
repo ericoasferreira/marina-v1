@@ -35,7 +35,7 @@
             <div style="background-color: #fff;" class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Início</a>
-                    <a class="nav-item nav-link" href="#sec_sobre_mim">Sobre mim</a>
+                    <a class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sobre mim</a>
                     <a class="nav-item nav-link" href="#sec_procedimentos">Procedimentos</a>
                     <a class="nav-item nav-link" href="#sec_instagram">Instagram</a>
                     <a class="nav-item nav-link" href="#sec_contato">Contato</a>
@@ -59,13 +59,9 @@
                     <span id="title_name">Marina Vilela!</span>
                 </h1>
                 <!-- <img src="./images/Marina_Vilela!.svg" alt="Marina Vilela!"> -->
-                <p id="text_intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique in id iaculis
-                    pulvinar est mattis
-                    tincidunt mattis at. Magna risus quisque risus mattis nunc. Id maecenas vestibulum parturient diam.
-                    Turpis nulla sollicitudin sed luctus egestas mauris, dui. Nisl ornare mauris leo odio elementum
-                    phasellus at. Ut ut aliquet malesuada odio. Erat ac, eget lorem a felis scelerisque integer sit
-                    nunc. Sed lorem nisi eget adipiscing pretium. Risus euismod.</p>
-                <button id="button_saiba_mais" onclick="scrollToSobreMim()">Saiba mais sobre mim</button>
+                <p id="text_intro">Sou Cirurgiã Plástica e trabalho em São Paulo, capital.</p>
+                <button id="button_saiba_mais" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Saiba mais sobre
+                    mim</button>
             </div>
             <div class="col-12 col-lg-4">
                 <img width="100%" src="./images/marina-vilela.png" alt="Marina Vilela">
@@ -76,9 +72,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    Launch static backdrop modal
-                </button>
+                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Saiba mais sobre mim
+                </button> -->
 
                 <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -86,7 +82,7 @@
                     <div class="modal-dialog modal-dialog-scrollable modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Sobre mim</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -101,17 +97,17 @@
                                             <span>CRM/SP 156.992 | RQE 89802</span>
                                             <!-- <img src="./images/line-dash.svg" alt=""> -->
                                             <div class="line"></div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique in id iaculis pulvinar est mattis
-                                                tincidunt mattis at. Magna risus quisque risus mattis nunc. Id maecenas vestibulum parturient diam.
-                                                Turpis nulla sollicitudin sed luctus egestas mauris, dui. Nisl ornare mauris leo odio elementum
-                                                phasellus at. Ut ut aliquet malesuada odio. Erat ac, eget lorem a felis scelerisque integer sit
-                                                nunc. Sed lorem nisi eget adipiscing pretium. Risus euismod.</p>
+                                            <p>Graduação em medicina pela Universidade de São Paulo (USP).</p>
+                                            <p>Residências médica no Hospital da Clínicas da Universidade de São Paulo -
+                                                HCFMUSP.</p>
+                                            <p>Título de especialista em Cirurgia Plástica pela SBCP (Sociedade
+                                                Brasileira de Cirurgia Plástica)</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="container-fluid bg-off-white">
                                     <div class="row justify-content-center py-5 limit-width m-auto">
-                                        <div class="col-12 col-lg-5">
+                                        <div class="col-12 col-lg-6">
                                             <img src="./images/Text_Formacoes.svg" alt="">
                                             <ul>
                                                 <li>Cirurgiã plástica formada pela USP (Graduação 2006-2012)</li>
@@ -120,7 +116,7 @@
                                                 <li>Fellowship de Cirurgia Plástica Pediátrica (2019-2020).</li>
                                             </ul>
                                         </div>
-                                        <div class="col-12 col-lg-4">
+                                        <!-- <div class="col-12 col-lg-4">
                                             <img src="./images/Text_Premiacoes.svg" alt="">
                                             <ul>
                                                 <li>Premiação 1</li>
@@ -128,14 +124,80 @@
                                                 <li>Premiação 3</li>
                                                 <li>Premiação 4</li>
                                             </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div class="row justify-content-center py-5">
+                                        <div class="col-12 col-lg-9">
+                                            <p>A Dra. Marina formou-se em Medicina pela Universidade de São Paulo (USP)
+                                                em 2012.
+                                                Em 2009, participou da diretoria acadêmica do Projeto Bandeira
+                                                Científica, projeto de extensão universitária modelo na abordagem global
+                                                e interdisciplinar da problemática das comunidades vulneráveis do
+                                                interior do Brasil, resultando em uma expedição de 10 dias à cidade de
+                                                Ivinhema-MS.</p>
+                                            <p>
+                                                Em 2013, foi voluntária no Exército Brasileiro, como Oficial Médico
+                                                Temporário e a patente 2o Tenente R2.
+                                            </p>
+                                            <p>
+                                                Prosseguiu com os estudos de pós graduação na Universidade de São Paulo
+                                                - USP, cursando no Hospital das Clínicas as Residências Médicas de
+                                                Cirurgia Geral e Cirurgia Plástica.
+                                                Durante este período, dedicou-se à coordenação e monitoria da Liga de
+                                                Cirurgia Plástica dos alunos de medicina.
+                                            </p>
+                                            <p>
+                                                Em 2017, participou como Voluntária no Projeto Smile Train: Brazil’s
+                                                Cleft Week, auxiliando em cirurgias de pacientes com fissura
+                                                labiopalatinas na cidade de Parintins/ AM.
+                                            </p>
+                                            <p>
+                                                Em 2018, recebeu o prêmio de 5o lugar na Jornada Paulista Reconstrutiva
+                                                de Cirurgia Plástica com a Apresentação Oral “Uso do retalho
+                                                microcirúrgico lateral do braço inervado em reconstruções pós
+                                                glossectomias parciais”, realizado em conjunto com equipe de Cirurgia
+                                                Plástica Reconstrutiva do Instituto do Câncer do Estado de São Paulo -
+                                                ICESP.
+                                            </p>
+                                            <p>
+                                                Em 2019 fez estágio em hospitais da Europa, para aprimorar o cuidado aos
+                                                pacientes e técnica cirúrgica. Visitou o Hospital St Luc, em Bruxelas
+                                                (Bélgica) - no Centre des Malformations Vasculaires, e também o Hospital
+                                                Necker, em Paris (França), no Centre de Réference des Malformations
+                                                Crânio-Faciales. Também em 2019, participou do ISCFS - Congresso
+                                                Internacional da Sociedade de Cirurgia Craniofacial, com apresentação do
+                                                trabalho “Surgical approach of infantile hemangiomas of the nose”.
+                                            </p>
+                                            <p>
+                                                Já participou por 4 anos consecutivos como monitora em Cursos e
+                                                Workshops voltados ao ensino de Técnicas de Sutura, Enxertos e Retalhos,
+                                                e em 2019 foi monitora do Curso de Dissecção Avançada de Face no
+                                                SIMFER-USP.
+                                            </p>
+                                            <p>
+                                                Cursou o Fellowship de Cirurgia Plástica Pediátrica da Faculdade de
+                                                Medicina da USP, com atuação principalmente no Hospital das Clínicas,
+                                                Hospital Municipal Infantil Menino Jesus, e Hospital Albert Einstein.
+                                            </p>
+                                            <p>
+                                                Sua área de pesquisa principal é no campo das anomalias vasculares
+                                                congênitas. Publicou trabalhos nessa área, junto à equipe de Cirurgia
+                                                Plástica Pediátrica do Hospital da Clínicas da USP.
+                                            </p>
+                                            <p>
+                                                Atualmente, se dedica também ao tratamento de lipedema no Instituto
+                                                Lipedema Brasil.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                 <button type="button" class="btn btn-primary">Understood</button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -144,12 +206,8 @@
     </div>
 
     <!-- Marina -->
-    
-    <div class="container-fluid">
-        <div class="row">
 
-        </div>
-    </div>
+
 
     <div class="custom-accordion">
         <div class="custom-accordion-buttons">
