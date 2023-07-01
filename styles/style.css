@@ -200,6 +200,10 @@ footer {
     #title_contato {
         width: 100%;
     }
+
+    #div_image_main {
+        padding-top: 2rem;
+      }
 }   
 
 .custom-accordion-button {
@@ -223,4 +227,5 @@ footer {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
   }
+  
   
